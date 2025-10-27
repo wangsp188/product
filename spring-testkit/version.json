@@ -1,0 +1,10 @@
+[
+  {
+    "version": "1.1028",
+    "publishTime": "2025-10-27 10:00:00",
+    "sinceBuild": "231.*",
+    "untilBuild": "273.*",
+    "downloadUrl": "https://github.com/wangsp188/product/blob/master/spring-testkit/spring-testkit-1.1028.zip",
+    "releaseNotes": "1.1028版本发布"
+  }
+]
