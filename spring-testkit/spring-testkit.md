@@ -118,8 +118,8 @@ Demo: [testkit-cli.mp4](testkit-cli.mp4)
 
 [http-command.mp4](http-command.mp4)
 
-## Mybatis tool & SQL tool
-> 利用xml+参数动态生成sql  & sql监测
+## Mybatis tool
+> 利用xml+参数动态生成sql
 
 ![img.png](sql-tool1.png)
 
@@ -138,7 +138,6 @@ Demo: [testkit-cli.mp4](testkit-cli.mp4)
 > 
 ![req-store.png](req-store.png)
 ![req-store2.png](req-store2.png)
-[req-store.mp4](req-store.mp4)
 
 # 修订记录
 2025.3.8 公测
