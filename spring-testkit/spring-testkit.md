@@ -3,9 +3,19 @@
 > <font style="color:#74B602;">绿色本地化插件，所有配置仅本地保存 `~/.spring-testkit`
 >
 
-一句话：专注于提高<font style="color:rgb(230, 69, 147);">Spring-Boot</font>研发效率的<font style="color:rgb(230, 69, 147);">插件式解决方案。</font>
+一句话：专注于提高<font style="color:rgb(230, 69, 147);">Spring-Boot</font>测试/研发效率的<font style="color:rgb(230, 69, 147);">插件式解决方案。</font>
 
-核心理念：<font style="color:rgb(230, 69, 147);">BAAS </font><font style="color:rgb(34, 33, 36);">(Bean as a Service)</font>
+核心理念：<font style="color:rgb(230, 69, 147);">BAAS (Bean as a Service)</font>
+
+解决什么？
+
+1.本地启动JAVA项目耗时太久，测试代码频繁重启？
+
+2.写单测太过繁琐？
+
+3.Service/Repo等内部实现层代码难以直接测试？
+
+Spring-testkit来帮忙！！！
 
 # 如何安装？
 doc：[Idea 离线安装插件 Idea 安装离线插件_idea离线安装插件-CSDN博客](https://blog.csdn.net/HaHa_Sir/article/details/125086022)
@@ -14,6 +24,9 @@ doc：[Idea 离线安装插件 Idea 安装离线插件_idea离线安装插件-CS
 
 插件：[spring-testkit.zip](spring-testkit-2.0107.zip)
 
+# Infra
+通过增强启动命令实现插件式服务启动，提供动态丰富测试能力
+![infra.png](infra.png)
 # 运行时工具
 > 依赖运行时项目才可用的工具
 >
@@ -35,15 +48,6 @@ doc：[Idea 离线安装插件 Idea 安装离线插件_idea离线安装插件-CS
 ![flexible-test.png](flexible-test.png)
 
 [flexible-test.mp4](flexible-test.mp4)
-
-## Spring-cache
-> Spring-Cache扩展较多，对底层不熟悉的开发者搞不明白缓存到底长啥样。
->
-> <font style="color:rgb(230, 69, 147);">构建Key + 获取缓存值 + 删除缓存值</font>
-
-![spring-cache.png](spring-cache.png)
-
-[spring-cache.mp4](spring-cache.mp4)
 
 ## 高阶增强
 ### Tool interceptor
@@ -118,14 +122,8 @@ Demo: [testkit-cli.mp4](testkit-cli.mp4)
 > 利用xml+参数动态生成sql  & sql监测
 
 ![img.png](sql-tool1.png)
-点击右上角按钮打开sql分析![img.png](sql-tool2.png)
-![img.png](sql-tool3.png)
 
 [sql-tool.mp4](sql-tool.mp4)
-
-### Coding guidelines
-> 团队研发文档角标式导航触达
->
 
 # 研发支撑
 ## Curl parser
@@ -139,6 +137,7 @@ Demo: [testkit-cli.mp4](testkit-cli.mp4)
 > 常用API可以保存后，拿来即用
 > 
 ![req-store.png](req-store.png)
+![req-store2.png](req-store2.png)
 [req-store.mp4](req-store.mp4)
 
 # 修订记录
